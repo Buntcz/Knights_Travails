@@ -14,5 +14,5 @@ Pseudo Code.
 11. Check if the nextX and nextY are inside the board's range, bigger than or equal to 0 and smaller than 8
 12. Create a newPath variable, that will use the .slice() method that will make the currentPath into an array.
 13. Push the [newX, newY] variables inside the newPath array.
-14. Push them into the queue and let the magic happen.
+14. Push the newPath array into the queue, then the queue will print out all the moves until the position is reached.
 
